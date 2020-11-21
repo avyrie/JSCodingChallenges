@@ -1,5 +1,8 @@
 // Create an array of random numbers that sdo not repeat and are not in consecutive order
 
+// Solution #1
+
+// Fills array with random, non-repeating numbers. These numbers will be in order from least to greatest
 function randomArr() {
     let keys = {}
     // while(Object.keys(keys).length < (however long you want the array to be) {
@@ -15,6 +18,7 @@ function randomArr() {
 }
 let randArr = randomArr();
 
+// Shuffles the array of random numbers so they are no longer in order
 function shuffle() {
     let currentIndex = randArr.length, temporaryValue, randomIndex;
 
@@ -37,3 +41,20 @@ console.log(shuffle())
 
 // Thanks to: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 // and Yulia Tsernet
+
+
+// Solution #2
+function randmArr() {
+    let keys = {}
+    while (Object.keys(keys).length < 10) {
+        let num = Math.floor(Math.random() * (20 - 0) + 0);
+        keys[num] = true;
+    }
+    let randNumsArr = Object.keys(keys).map((num) => parseInt(num))
+    let shuffArr = randNumsArr.sort(() => Math.random() - 0.5)
+    return shuffArr
+}
+console.log(randmArr())
+
+// Thank you to Ron Fybish
+
