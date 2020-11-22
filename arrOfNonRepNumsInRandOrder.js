@@ -44,6 +44,7 @@ console.log(shuffle())
 
 
 // ----- Solution #2 -----
+
 function randmArr() {
     let keys = {}
     while (Object.keys(keys).length < 10) {
@@ -56,7 +57,7 @@ function randmArr() {
 }
 console.log(randmArr())
 
-// Thank you to Ron Fybish
+// Thanks to Ron Fybish
 
 
 // ----- Solution #3 -----

@@ -1,6 +1,6 @@
 // Given an array of integers (nums) and an integer (target) return 2 numbers in the array that add up to the target
 
-// Solution #1
+// ----- Solution #1 -----
 
 const twoSum = function(nums, target) {
     let arr = [];
