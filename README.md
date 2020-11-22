@@ -7,6 +7,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 
 ## Challenges List:
 - arrayOfNonRepeatingNumbersInRandomOrder.js - Create an array of random numbers that do not repeat and are NOT in consecutive order
+- atLeastFive.js - Create a function that prints all numbers up to and including a given argument. No matter tha argument, the function should print each number up to and including 5
 - indicesOfNumsAddToTar.js - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 - revStr.js - Write a function that takes in a string and outputs that same string, but reversed
 - twoNumSumTarget.js - // Given an array of integers (nums) and an integer (target) return 2 numbers in the array that add up to the target
