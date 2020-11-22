@@ -1,6 +1,6 @@
 // Create an array of random numbers that sdo not repeat and are not in consecutive order
 
-// Solution #1
+// ----- Solution #1 -----
 
 // Fills array with random, non-repeating numbers. These numbers will be in order from least to greatest
 function randomArr() {
@@ -43,7 +43,7 @@ console.log(shuffle())
 // and Yulia Tsernet
 
 
-// Solution #2
+// ----- Solution #2 -----
 function randmArr() {
     let keys = {}
     while (Object.keys(keys).length < 10) {
@@ -57,4 +57,15 @@ function randmArr() {
 console.log(randmArr())
 
 // Thank you to Ron Fybish
+
+
+// ----- Solution #3 -----
+
+function arrRandom(length) {
+    return Array(length).fill(0).map((_, i) => i + 1).sort((_) => Math.random() - 0.5);
+}
+
+console.log(arrRandom(10))
+
+// Thanks to Julian Bovone
 

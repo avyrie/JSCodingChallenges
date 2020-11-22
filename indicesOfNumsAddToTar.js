@@ -5,7 +5,7 @@
 const twoIndices = function(nums, target) {
     let arr = [];
     for (let j = 0; j <= nums.length; j++) {
-        for (let i = 0; i <= nums.length; i++) {
+        for (let i = 0; i < nums.length; i++) {
             if(i !== j && nums[i] + nums[j] === target) {
                 arr.push(j, i)
                 return arr
