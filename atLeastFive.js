@@ -13,7 +13,7 @@ function atLeastFive(num) {
 atLeastFive(4)
 
 
-// ----- Solution 2 -----
+// ----- Solution #2 -----
 
 function logAtLeastFive(num) {
     for (let i = 1; i <= Math.max(5, num); i++) {

@@ -13,7 +13,7 @@ function atMostFive(num) {
 atMostFive(7)
 
 
-// ----- Solution 2 -----
+// ----- Solution #2 -----
 
 function logAtMostFive(num) {
     for (let i = 1; i <= Math.min(5, num); i++) {
