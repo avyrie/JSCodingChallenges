@@ -15,9 +15,9 @@ atLeastFive(4)
 
 // ----- Solution 2 -----
 
-function logAtLEastFive(num) {
+function logAtLeastFive(num) {
     for (let i = 1; i <= Math.max(5, num); i++) {
         console.log(i)
     }
 }
-logAtLEastFive(10)
+logAtLeastFive(10)
