@@ -69,5 +69,5 @@ function arrRandom(length, max) {
 console.log(arrRandom(10, 20))
 
 // Thanks to Julian Bovone.
-// Explanation: Array(length*2) creates an array with a length that is equal to the specified max number + 1. fill(0) fills the array with 0's instead of empty spaces so we can iterate over it with map. .map iterates over the array and assigns each item as its index (_ is there to hold the place of an unused parameter). .sort randomizes the order of the items in the array. .slice removes all items in the array from the index that corresponds to the length argument onwards leaving an array with a length of length. 
+// Explanation: Array(max + 1) creates an array with a length that is equal to the specified max number + 1. fill(0) fills the array with 0's instead of empty spaces so we can iterate over it with map. .map iterates over the array and assigns each item as its index (_ is there to hold the place of an unused parameter). .sort randomizes the order of the items in the array. .slice removes all items in the array from the index that corresponds to the length argument onwards leaving an array with a length of length. 
 
