@@ -63,12 +63,11 @@ console.log(randmArr(10, 20, 0))
 // ----- Solution #3 -----
 
 function arrRandom(length, max) {
-    let arr = Array(length + max).fill(0).map((_, i) => i).sort(() => Math.random() - 0.5);
+    let arr = Array(max+1).fill(0).map((_, i) => i).sort(() => Math.random() - 0.5);
     return arr.slice(0, (length))
-    // return arr.length
 }
 console.log(arrRandom(10, 20))
 
 // Thanks to Julian Bovone.
-// Explanation: Array(length*2) creates an array with a length that is the specified length + the specified max number. fill(0) fills the array with 0's instead of empty spaces so we can iterate over it with map. .map iterates over the array and assigns each item as its index (_ is there to hold the place of an unused parameter). .sort randomizes the order of the items in the array. .slice removes all items in the array from the index that corresponds to the length argument onwards leaving an array with a length of length.
+// Explanation: Array(length*2) creates an array with a length that is equal to the specified max number + 1. fill(0) fills the array with 0's instead of empty spaces so we can iterate over it with map. .map iterates over the array and assigns each item as its index (_ is there to hold the place of an unused parameter). .sort randomizes the order of the items in the array. .slice removes all items in the array from the index that corresponds to the length argument onwards leaving an array with a length of length. 
 
