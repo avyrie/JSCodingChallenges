@@ -10,7 +10,7 @@ function atLeastFive(num) {
         console.log(i)
     } 
 }
-atLeastFive(4)
+atLeastFive(3)
 
 
 // ----- Solution #2 -----
