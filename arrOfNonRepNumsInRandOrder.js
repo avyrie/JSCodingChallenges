@@ -69,4 +69,16 @@ function arrRandom(arrLength, maxNum) {
 console.log(arrRandom(10, 20))
 
 // Thanks to Julian Bovone.
-// Explanation: Array(max + 1) creates an array with a length that is equal to the specified max number + 1. fill() fills the array instead of empty spaces so we can iterate over it with map. .map iterates over the array and assigns each item as its index (_ is there to hold the place of an unused parameter (item)). .sort randomizes the order of the items in the array. .slice removes all items in the array from the index that corresponds to the length argument onwards leaving an array with a length of length.
+// Explanation: Array(max + 1) creates an array with a length that is equal to the specified max number + 1. fill() fills the array so we can iterate over it with map. .map iterates over the array and assigns each item as its index (_ is there to hold the place of an unused parameter (item)). .sort randomizes the order of the items in the array. .slice removes all items in the array from the index that corresponds to the length argument onwards leaving an array with a length of length.
+
+
+// ----- Solution #4 -----
+
+function randomArr(arrLength, maxNum) {
+    const aSet = new Set;
+    while (aSet.size < arrLength) {
+        aSet.add(Math.floor(Math.random() * maxNum + 1));
+    }
+    return [...aSet];
+}
+console.log(randomArr(10, 20))
