@@ -13,6 +13,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - atMostFive.js - Create a function that prints all numbers starting at 1 up to and including a given argument. If the given argument is greater than 5, only print up to and including 5.
 - findNum.js - Find if a given element is present in a given array or not.
 - indicesOfNumsAddToTar.js - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+- monotonic.js - Write a function that returns true if the given array is monotonic and false if not.
 - oddNums.js - Return all the odd numbers between two given integers.
 - palindromes.js - Check to see if a given string is a palindrome or not
 - revStr.js - Write a function that takes in a string and outputs that same string, but reversed.

@@ -36,3 +36,21 @@ function validSub(arr, seq) {
 }
 
 console.log(validSub(validArr, seq))
+
+
+// ----- Solution #3 -----
+
+function isValidSubsequence(array, sequence) {
+    const filterArr = array.filter(num => sequence.includes(num));
+    for (let i = 0; i < sequence.length; i++) {
+        if (filterArr[i] !== sequence[i]) {
+        return false;
+        }
+    }
+    return true;
+}
+let arr1 = [2, 2, 2, 2]
+let sub1 = [2, 2, 2]
+console.log(isValidSubsequence(arr1, sub1))
+
+// Thank you to Nate Daniels
