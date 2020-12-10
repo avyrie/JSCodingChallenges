@@ -77,8 +77,8 @@ console.log(arrRandom(10, 20))
 function randomArr(arrLength, maxNum) {
     const aSet = new Set;
     while (aSet.size < arrLength) {
-        aSet.add(Math.floor(Math.random() * maxNum + 1));
+        aSet.add(Math.floor(Math.random() * (maxNum + 1)));
     }
-    return [...aSet];
-}
-console.log(randomArr(10, 20))
+    return [...aSet]
+};
+console.log(randomArr(10, 20));

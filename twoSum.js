@@ -6,7 +6,7 @@ const twoSum = function(nums, target) {
     let arr = [];
     for (let j = 0; j < nums.length; j ++) {
         for (let i = 0; i < nums.length; i++) {
-            if(j !== i && nums[i] + nums[j] === target) {
+            if (j !== i && nums[i] + nums[j] === target) {
                 arr.push(nums[i], nums[j])
                 return arr
             } 
