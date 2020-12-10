@@ -19,6 +19,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - smallestDiff.js - Write a function that takes in two non-empty arrays of integers, finds the pair of numbers (one from each array) whose absolute difference is closest to zero, and returns an array containing those two numbers with the number from the first array in the first position.
 - sockPairs.js - Given an array of integers representing the color of each sock in a pile, determine how many pairs of socks with matching colors there are.
 - subsequence.js - Given two non-empty arrays of inteers, write a functionn that determines whether the second array is a subsequence of the first array.
+- toEnd.js - Write a function that takes in a given array of integers and a target number and returns the array with all instances of the target number now moved to the end of the array.
 - twoSum.js - Given an array of integers target number, return 2 numbers in the array that add up to the target number.
 - valleyCount.js - Given a string representing a hike (U = up, D = down) return the number of valleys this string portrays.
 
