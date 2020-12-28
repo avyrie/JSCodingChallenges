@@ -1,4 +1,5 @@
-./*longestSubstr.js
+./longestSubstrIP.js
 ./practice.js
-./*threeNumSum.js
-./*longestPeak.js
+./threeNumSumIP.js
+./threeSumIP.js
+./longestPeakIP.js
