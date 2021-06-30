@@ -6,6 +6,7 @@
 This repo contains multiple files each containing a unique JavaScript coding challenge. I will update this repo with more challenges and ways to solve. If you think of another way to solve a challenge, please message or send a merge request.
 
 ## Challenges List:
+- alphabeticalUnlessSameLetter.js - Sort an array of animals alphabetically unless the animal names begin with the same letter in which case, sort them in the same order they are to each other in the original array.
 - arrOfNonRepNumsInRandOrder.js - Create an array of random numbers that do not repeat and are ordered randomly.
 - arrOfProds.js - Write a function that takes in a given non-empty array and returns an array containing the product of every other number in the given array
 - arrWInArr.js - Write a function that returns true if all items in an array exist within another array and false if not 
