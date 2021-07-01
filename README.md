@@ -37,6 +37,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - toEnd.js - Write a function that takes in a given array of integers and a target number and returns the array with all instances of the target number now moved to the end of the array.
 - twoSum.js - Given an array of integers target number, return 2 numbers in the array that add up to the target number.
 - uniqueString.js - Given two strings containing only letters a-z, return the longest possible string containing distinct, non-repeating letters from both strings
+- validEmail.js - Write a function to test if an e-mail address is in a valid format (XXX@XXX.xxx)
 - valleyCount.js - Given a string representing a hike (U = up, D = down) return the number of valleys this string portrays.
 - walk.js - Given an array of strings representing a walk where each item represents a block that takes 1 minute to walk each (n = North, s = South, e = East, w = West), return true if the man will end up back at his original location in 10 minutes and false if not
 
