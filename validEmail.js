@@ -1,0 +1,1 @@
+// Given an array of integers, return a new array with each value doubled. Use the map method

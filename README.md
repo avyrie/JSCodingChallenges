@@ -7,6 +7,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 
 ## Challenges List:
 - alphabeticalUnlessSameLetter.js - Sort an array of animals alphabetically unless the animal names begin with the same letter in which case, sort them in the same order they are to each other in the original array.
+- arrOfArr.js - Given a positive integer n, create an array that is n length where each item is an array with just the index of that particular array in it.
 - arrOfNonRepNumsInRandOrder.js - Create an array of random numbers that do not repeat and are ordered randomly.
 - arrOfProds.js - Write a function that takes in a given non-empty array and returns an array containing the product of every other number in the given array
 - arrWInArr.js - Write a function that returns true if all items in an array exist within another array and false if not 
@@ -15,6 +16,8 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - bus.js - Given an array of arrays representing each stop in a bus route, calculate the number of people on the bus when it gets to the end of its route
 - checkEvenness.js - Write a function that returns the "odd number out" in an array (ex. array would be all even numbers except for one odd number or vice versa)
 - checkEvennessPos.js - Write a function that returns the POSITION of the "odd number out" in an array (ex. array would be all even numbers except for one odd number or vice versa)
+- doubleArr.js - Given an array of integers, return a new array with each value doubled. Use the map method.
+- descendingOrder.js - Return an array that is sorted from the longest word to the shortest.
 - findNum.js - Find if a given element is present in a given array or not.
 - firstCapital.js - Given a string, return the string with the first letter of each word capitalized
 - indicesOfNumsAddToTar.js - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -29,6 +32,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - smallestDiff.js - Write a function that takes in two non-empty arrays of integers, finds the pair of numbers (one from each array) whose absolute difference is closest to zero, and returns an array containing those two numbers with the number from the first array in the first position.
 - sockPairs.js - Given an array of integers representing the color of each sock in a pile, determine how many pairs of socks with matching colors there are.
 - spiralMatrices.js - Write a function that takes in an n x m array and returns a one-dimensional array of all the array's elements in spiral order.
+- stringsAndNums.js - Sort an array with both strings and numbers so that the strings come first and the numbers come after. The strings should be sorted in reverse order and the numbers should be in ascending order
 - subsequence.js - Given two non-empty arrays of inteers, write a functionn that determines whether the second array is a subsequence of the first array.
 - toEnd.js - Write a function that takes in a given array of integers and a target number and returns the array with all instances of the target number now moved to the end of the array.
 - twoSum.js - Given an array of integers target number, return 2 numbers in the array that add up to the target number.
