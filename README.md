@@ -18,6 +18,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - checkEvennessPos.js - Write a function that returns the POSITION of the "odd number out" in an array (ex. array would be all even numbers except for one odd number or vice versa)
 - doubleArr.js - Given an array of integers, return a new array with each value doubled. Use the map method.
 - descendingOrder.js - Return an array that is sorted from the longest word to the shortest.
+- featuredProduct.js - Write a function that returns the most popular product sold at a store. 
 - findNum.js - Find if a given element is present in a given array or not.
 - firstCapital.js - Given a string, return the string with the first letter of each word capitalized
 - indicesOfNumsAddToTar.js - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -38,6 +39,7 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - twoSum.js - Given an array of integers target number, return 2 numbers in the array that add up to the target number.
 - uniqueString.js - Given two strings containing only letters a-z, return the longest possible string containing distinct, non-repeating letters from both strings
 - validEmail.js - Write a function to test if an e-mail address is in a valid format (XXX@XXX.xxx)
+- validPhoneNumber.js - Write a function that checks to see if a given phone number is valid
 - valleyCount.js - Given a string representing a hike (U = up, D = down) return the number of valleys this string portrays.
 - walk.js - Given an array of strings representing a walk where each item represents a block that takes 1 minute to walk each (n = North, s = South, e = East, w = West), return true if the man will end up back at his original location in 10 minutes and false if not
 
