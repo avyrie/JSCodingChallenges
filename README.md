@@ -16,8 +16,9 @@ This repo contains multiple files each containing a unique JavaScript coding cha
 - bus.js - Given an array of arrays representing each stop in a bus route, calculate the number of people on the bus when it gets to the end of its route
 - checkEvenness.js - Write a function that returns the "odd number out" in an array (ex. array would be all even numbers except for one odd number or vice versa)
 - checkEvennessPos.js - Write a function that returns the POSITION of the "odd number out" in an array (ex. array would be all even numbers except for one odd number or vice versa)
-- doubleArr.js - Given an array of integers, return a new array with each value doubled. Use the map method.
 - descendingOrder.js - Return an array that is sorted from the longest word to the shortest.
+- doubleArr.js - Given an array of integers, return a new array with each value doubled. Use the map method.
+- duplicateProducts.js - Find out how many duplicate items are present within a given list.
 - featuredProduct.js - Write a function that returns the most popular product sold at a store. 
 - findNum.js - Find if a given element is present in a given array or not.
 - firstCapital.js - Given a string, return the string with the first letter of each word capitalized
